@@ -71,3 +71,21 @@
     background-color: #97c841;
     cursor: pointer;
 }
+
+.sect_container {
+    display:flex;
+    justify-content: space-around   ;
+    align-items: center;
+}
+
+.left_sect h1 {
+    padding: 20px;
+    font-size: 3.5rem;
+    line-height: 1;
+
+}
+
+.right_sect h1 {
+    font-size: 3.5rem;
+    line-height: 1;
+}
