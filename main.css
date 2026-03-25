@@ -79,6 +79,8 @@
     display:flex;
     justify-content: space-between   ;
     align-items: center;
+    padding: 80px 100px;
+    gap: 60px;
 }
 
 .left_sect {
@@ -91,11 +93,13 @@
     margin-block-end: 0.67em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;
-    font-size: 3.5rem;
-    line-height: 1;
-    font-weight: 700;
+
+    font-size: clamp(36px, 5vw, 64px);
+    line-height: 1.1;
+    font-weight: 600px;
     color: hsl(220 60% 16%);
-    font-family: 'DM Sans';
+
+    font-family: 'Playfair Display', serif;
     font-weight: 400;
     font-display: swap; 
 
@@ -104,39 +108,19 @@
 .left_sect p {
     color: #646f87;
     max-width: 32rem;
-    font-size: larger;
+    font-size: clamp(16px, 1.2vw, 20px);
+    font-family: font-family: 'Inter', sans-serif;;
+    line-height: 1.7;
     margin-right: 220px;
     margin-bottom: 80px;
 
 }
 
-.right_sect {
-   
-}
 
-.right_sect h1 {
-     display: inline-block;
-    margin-block-start: 0.67em;
-    margin-block-end: 0.67em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    font-size: 3.5rem;
-    line-height: 1;
-    font-weight: 700;
-    margin-left: 270px;
-    margin-bottom: 80px;
-    color: hsl(220 60% 16%);;
-    font-family: 'DM Sans';
-    font-style: italic;
-    font-weight: 400;
-    font-display: swap;
-}
-.right_sect p {
-    color: #646f87;
-    max-width: 32rem;
-    font-size: larger;
-    margin-left: 220px;
-    margin-bottom:70px;
+img {
+    width: 400px;
+    height: auto;
+    border-radius: 10px;
 }
 
 .serv_btn {
@@ -150,10 +134,12 @@
     justify-content: center;
     align-items: center;
     gap: 0.5rem;
+
     text-decoration: none;
     padding-left: 1.75rem;
     padding-right: 1.75rem;
     padding-top: 0.825rem;
+
     padding-bottom: 0.825rem;
     border-radius: 9999px;
     background-color: #87bd28;
@@ -197,12 +183,14 @@
     width: 40px;
     border-width: 2px;
     border-radius: 50%;
+
     color: #ffffff;
     background-color: #102141;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 14px;
+
     border: 2px solid white;
     margin-left: -10px;
 }
@@ -216,4 +204,12 @@
 .clients:nth-child(3) { background: #2bb3a3; }
 .clients:nth-child(4) { background: #f4b400; }
 .clients:nth-child(5) { background: #FFFF; color: gray;}
+
+.vip {
+    font-weight: 500;
+    border-color: #e0e4eb;
+    color: hsl(220, 15%, 46%);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
 
