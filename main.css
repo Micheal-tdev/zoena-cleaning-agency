@@ -193,14 +193,27 @@
 
 .clients {
     font-weight: 700;
-    height: 2.25rem;
-    width: 2.25rem;
+    height: 40px;
+    width: 40px;
     border-width: 2px;
-    border-radius: 99px;
+    border-radius: 50%;
     color: #ffffff;
     background-color: #102141;
-    text-align: center;
+    display: flex;
     justify-content: center;
     align-items: center;
-    font-size: small;
+    font-size: 14px;
+    border: 2px solid white;
+    margin-left: -10px;
 }
+
+.clients:first-child {
+  margin-left: 0;
+}
+
+.clients:nth-child(1) { background: #1f2a44; }
+.clients:nth-child(2) { background: #6cc04a; }
+.clients:nth-child(3) { background: #2bb3a3; }
+.clients:nth-child(4) { background: #f4b400; }
+.clients:nth-child(5) { background: #FFFF; color: gray;}
+
