@@ -273,11 +273,17 @@ img {
     margin-right: auto;
 }
 
+.card_container {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0px, 1fr));
+    gap: 1.5rem;
+}
+
 .card {
     padding: 1.5rem;
     border-radius: 0.75rem;
     background-color: #ffffff;
-    
+     
 }
 
 
