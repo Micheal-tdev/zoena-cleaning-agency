@@ -260,3 +260,25 @@ img {
     font-family:'Poppins', sans-serif;
 }
 
+.card_sect {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: #f3f7f4;
+}
+
+.card_div {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card {
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+    background-color: #ffffff;
+    
+}
+
+
+
