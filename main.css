@@ -398,3 +398,44 @@ img {
     color: #646f87;
      font-family: 'DM Sans', sans-serif;
 }
+
+.green {
+    margin-bottom: .75rem;
+    font-size: .75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    letter-spacing: .05em;
+    text-transform: uppercase;
+    color: #87bd28;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.about h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-wrap: balance;
+    color: #102141;
+    font-weight: 700;
+    font-family:'DM Sans', sans-serif ;
+}
+
+.about p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1rem;
+    color: #646f87;
+    font-family:'DM Sans', sans-serif ;
+}
+
+.about ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.about l1 {
+    display: flex;
+    align-items:flex-start;
+    gap: .75rem;
+    
+}
