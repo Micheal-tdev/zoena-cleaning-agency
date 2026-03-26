@@ -243,3 +243,20 @@ img {
     text-align: center;
 }
 
+.numbers {
+    font-weight:700 ;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: #87bd28;
+    font-family: 'Poppins', sans-serif;
+}
+
+.prj_txt {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #646f87;
+    letter-spacing: 0.025em;
+    font-weight: 500;
+    font-family:'Poppins', sans-serif;
+}
+
