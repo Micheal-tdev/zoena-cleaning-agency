@@ -479,6 +479,13 @@ img {
     box-shadow: 0 0 0 3px rgba(135, 189, 40, 0.4);
 }
 
+.gradient_sect {
+    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    overflow: hidden;
+    position: relative;
+}
 
 
 
