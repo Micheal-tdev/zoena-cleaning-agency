@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-family:'DM Sans', sans-serif;
 }
 .nav_container {
     display: flex;
@@ -486,7 +487,41 @@ img {
     overflow: hidden;
     position: relative;
 }
+.gradient_cnt {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    position: relative;
+}
 
+.gradient_div {
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
 
+.gradient span {
+    color: #87bd28;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding-top: 0.375rem;
+    padding-bottom: 0.375rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 99px;
+    background-color: #e7f5d0;
+    font-family:'DM Sans', sans-serif;
+    margin-bottom: 7rem;
+}
 
-
+.gradient h2 {
+    font-weight: 700;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    color: #102141;
+}
