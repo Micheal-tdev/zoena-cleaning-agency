@@ -503,6 +503,7 @@ img {
 }
 
 .gradient span {
+    display: inline-block;
     color: #87bd28;
     letter-spacing: 0.05em;
     text-transform: uppercase;
@@ -516,7 +517,7 @@ img {
     border-radius: 99px;
     background-color: #e7f5d0;
     font-family:'DM Sans', sans-serif;
-    margin-bottom: 7rem;
+    margin-bottom: 15px;
 }
 
 .gradient h2 {
@@ -524,4 +525,37 @@ img {
     font-size: 2.25rem;
     line-height: 2.5rem;
     color: #102141;
+}
+
+#grdt {
+    display: flex;
+    gap: 10px;
+}
+
+.arrow_btn {
+      width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    border: 1px solid #e0e4eb;
+    background-color: #ffffff;
+    color: #102141;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+
+}
+
+.arrow_btn:hover {
+    background-color: #87bd28;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    color: #ffffff;
+}
+
+.arrow_btn:active {
+    transform: scale(0.95);
 }
