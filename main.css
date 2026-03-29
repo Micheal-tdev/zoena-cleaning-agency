@@ -88,7 +88,7 @@
     display:flex;
     justify-content: space-between   ;
     align-items: center;
-    padding: 80px 100px;
+    padding: 60px 20px;
     gap: 60px;
 }
 
@@ -115,7 +115,6 @@
     font-size: 18px;
     font-family: 'DM Sans', sans-serif;
     line-height: 1.6;
-    margin-right: 220px;
     margin-bottom: 80px;
 }
 
@@ -418,9 +417,12 @@ img {
 }
 
 .about p {
+    font-size: 1rem;
+    line-height: 1.5rem;
     margin-top: 15px;
     padding-bottom: 20px;
     margin-right: 0;
+    color: #646f87;
     font-family:'DM Sans', sans-serif;
 }
 
@@ -527,10 +529,7 @@ img {
     color: #102141;
 }
 
-#grdt {
-    display: flex;
-    gap: 10px;
-}
+
 
 .arrow_btn {
       width: 35px;
@@ -561,21 +560,35 @@ img {
 } 
 .pic_cnt {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     gap: 10px;
 }
 
-.pic_img {
-    aspect-ratio: 4 / 3;
+.pic_div {
+    background: #fff;
+    border-radius: 16px;
     overflow: hidden;
-    position: relative;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+    border-radius: 16px;
 }
 
+.pic_img {
+    aspect-ratio: 4 / 3;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0;
+}
+
+.pic_div:hover img {
+    transform: scale(1.05);
+    transition: 0.4s ease;
+}
+
+
 .pic_img img {
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
 }
 
 .pic_span {
