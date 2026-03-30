@@ -483,7 +483,7 @@ img {
 }
 
 .gradient_sect {
-      background-image: linear-gradient(to bottom right, #c8e8dc 0%, #ffffff 40%, #ffffff 100%);
+    background-image: linear-gradient(to bottom right, #c8e8dc 0%, #ffffff 40%, #ffffff 100%);
     padding-top: 1rem;
     padding-bottom: 7rem;
     overflow: hidden;
@@ -645,4 +645,26 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.cleaning_sect {
+    background-image: linear-gradient(to bottom right, #c8e8dc 0%, #ffffff 40%, #ffffff 100%);
+    padding-top: 1rem;
+    padding-bottom: 7rem
+}
+
+.cleaning_cnt {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    position: relative;
+}
+
+.cleaning_grid {
+    display: grid;
+    align-items: flex-start;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+
 }
