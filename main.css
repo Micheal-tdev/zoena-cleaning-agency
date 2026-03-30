@@ -813,6 +813,7 @@ img {
 .left_grid_cnt {
     display: grid;
     grid-template-columns: repeat(2, minmax(0px, 1fr));
+    gap: 1rem;
 }
 
 .left_grid_pic1 {
