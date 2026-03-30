@@ -483,7 +483,7 @@ img {
 }
 
 .gradient_sect {
-  background-image: linear-gradient(to bottom right, #add8e6, #ffffff);
+      background-image: linear-gradient(to bottom right, #c8e8dc 0%, #ffffff 40%, #ffffff 100%);
     padding-top: 1rem;
     padding-bottom: 7rem;
     overflow: hidden;
@@ -496,7 +496,8 @@ img {
     margin-right: auto;
     z-index: 10;
     position: relative;
-    padding bottom: 90px;
+    padding-bottom: 30px;
+    padding-top: 70px;
 }
 
 .gradient_div {
