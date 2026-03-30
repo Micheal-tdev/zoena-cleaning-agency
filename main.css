@@ -483,8 +483,8 @@ img {
 }
 
 .gradient_sect {
-    background-image: linear-gradient(to bottom right, var(--tw-gradient-stops));
-    padding-top: 7rem;
+  background-image: linear-gradient(to bottom right, #add8e6, #ffffff);
+    padding-top: 1rem;
     padding-bottom: 7rem;
     overflow: hidden;
     position: relative;
@@ -496,6 +496,7 @@ img {
     margin-right: auto;
     z-index: 10;
     position: relative;
+    padding bottom: 90px;
 }
 
 .gradient_div {
@@ -527,6 +528,12 @@ img {
     font-size: 2.25rem;
     line-height: 2.5rem;
     color: #102141;
+}
+
+.pic_sect {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background: linear-gradient(to right, #bde4f4, transparent);
 }
 
 #grdt {
