@@ -939,8 +939,50 @@ img {
     position: relative;
 }
 
+.plate_svg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-bottom: 1.25rem;
+    background-color: #87bd2826;
+    border-radius: 99px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 10;
+    position: relative;
 
+}
 
+.plate_span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: #87bd28;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    text-align: center;
+}
 
+.plate h3 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    color: #fafafa;
+}
 
+.plate p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #fafafa8c;
+    max-width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin: 0px;
+    text-align: center;
+
+}
 
