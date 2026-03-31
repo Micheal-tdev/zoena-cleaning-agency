@@ -866,6 +866,37 @@ img {
     margin-top: 0.25rem;
 }
 
+.work_sect {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: #102141;
+}
+
+.work_cnt {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.work_cnt span {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    color: #87bd28;
+    text-transform: uppercase;
+}
+
+.work_cnt h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+    text-wrap: balance;
+}
+
 
 
 
