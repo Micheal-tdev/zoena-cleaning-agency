@@ -1029,6 +1029,27 @@ img {
     gap: 1.5rem;
     flex-direction: row;
     background-color: #23365ccc;
+}
+
+.quote_left {
+    text-align: left;
+
+}
+
+.quote_left h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: #fafafa;
+    font-weight: 700;
+}
+
+.quote_left p {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #fafafa99;
+    margin-top: 0.25rem;
     
 }
+
+
 
