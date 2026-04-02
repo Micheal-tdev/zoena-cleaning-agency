@@ -1022,13 +1022,18 @@ img {
 }
 
 .quote_card {
-    padding-left: 2rem;
-    padding-right: 2rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
     padding-top: 1.75rem;
     padding-bottom: 1.75rem;
-    gap: 1.5rem;
-    flex-direction: row;
+    gap: 2rem;
+    
     background-color: #23365ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius:20px ;
+    width: 45%;
 }
 
 .quote_left {
