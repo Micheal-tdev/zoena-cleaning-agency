@@ -1185,6 +1185,10 @@ img {
 
 }
 
+.form_left {
+    grid-column: span 2 / span 2;
+}
+
 .form_left_card {
     padding: 2rem;
     color: #fafafa;
@@ -1209,6 +1213,11 @@ img {
     color: #fafafa99;
 }
 
+.form_dits_cnt {
+    display: flex;
+    gap: 3rem;
+}
+
 
 .form_dits_flex {
     display: flex;
@@ -1218,6 +1227,7 @@ img {
 
 .form_dits_svg {
     height: 2.5rem;
+    width: 2.5rem;
     background-color: #87bd2826;
     border-radius: 0.5rem;
     display: flex;
