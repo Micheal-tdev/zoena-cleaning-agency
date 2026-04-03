@@ -1215,7 +1215,8 @@ img {
 
 .form_dits_cnt {
     display: flex;
-    gap: 3rem;
+    flex-direction: column;
+    gap: 1.5rem;
 }
 
 
@@ -1223,6 +1224,10 @@ img {
     display: flex;
     align-items: flex-start;
     gap: 1rem;
+}
+
+.form_dits_flex:hover {
+    transform: translateX(5px);
 }
 
 .form_dits_svg {
@@ -1253,9 +1258,28 @@ img {
 }
 
 .form_dits_txt a {
-    font-size: 0.875rem;
+    font-size: 0.975rem;
     line-height: 1.25rem;
     color: #fafafacc;
     word-break: break-all;
     text-decoration: none;
 }
+.form_dits_txt a:hover {
+    color: #87bd28;
+}
+
+.form_bottom {
+    padding-top:2rem;
+    border-color: #fafafa1a;
+    border-top-width: 1px;
+}
+
+.form_bottom p {
+    font-style: italic;
+    color: #fafafa66;
+    font-size: .75rem;
+    line-height: 1rem;
+    margin: 0;
+    
+}
+
