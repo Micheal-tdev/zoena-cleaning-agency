@@ -1279,7 +1279,23 @@ img {
     color: #fafafa66;
     font-size: .75rem;
     line-height: 1rem;
-    margin: 0;
-    
+    margin: 0; 
 }
 
+.form_div_right {
+    padding: 2rem;
+    background-color: #ffffff;
+    border-radius: 1rem;
+
+}
+
+.details_cnt {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+}
+
+.dits_init {
+    grid-column: span 2 / span 2;
+    
+}
