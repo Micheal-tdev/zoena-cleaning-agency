@@ -1206,10 +1206,6 @@ img {
     margin-bottom: 0.5rem;
     padding: 1.5rem;
     height: auto;
-
-     display: flex;
-    flex-direction: column;
-
 }
 
 .form_left_card p {
@@ -1259,7 +1255,7 @@ img {
     line-height: 1rem;
     color: #fafafa80;
     letter-spacing: 0.05em;
-    text-transform: uppercase;
+    text-transform : uppercase;
     font-weight: 600;
     display: block;
     margin-bottom: 0.125rem;
@@ -1272,6 +1268,7 @@ img {
     word-break: break-all;
     text-decoration: none;
 }
+
 .form_dits_txt a:hover {
     color: #87bd28;
 }
@@ -1280,10 +1277,6 @@ img {
     padding-top: 2rem;
     border-top: 1px solid #fafafa1a;
     margin-top: 1rem;
-
-    margin-top: auto;
-    padding-top: 1.5rem;
-    border-top: 1px solid #fafafa1a;
 }
 
 .form_bottom p {
@@ -1419,4 +1412,69 @@ input:focus {
 .send_btn:hover {
     background-color: #6fa020;
     transform: translateY(-1px);
+}
+
+footer {
+    background-color: #102141;  
+}
+
+.footer_cnt {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    border-color: #fafafa;
+    color: #fafafa;
+}
+
+.fotter_grid_cnt {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2.5rem;
+}
+
+.footer_grid_cards {
+    grid-column: span 1 / span 1;    
+}
+
+.footer_grid_cards img {
+    height: 5rem;
+    width: auto;
+    margin-bottom: 1rem;
+    max-width: 100%;
+}
+
+.footer_grid_cards p {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #fafafa8c;
+    margin-bottom: 1rem;
+
+}
+
+.quk_lks h4 {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+.quk_lks ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.quk_lks a {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #fafafa8c;
+    
+}
+
+.quk_lks li {
+
 }
