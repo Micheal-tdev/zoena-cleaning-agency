@@ -1476,10 +1476,10 @@ footer {
 }
 
 .quk_lks ul {
+   
     list-style: none;
     margin: 0;
     padding: 0;
-    margin-bottom: 0.6rem;
 }
 
 .quk_lks a {
@@ -1491,5 +1491,5 @@ footer {
 }
 
 .quk_lks li {
-   
+    margin-bottom: 0.6rem;
 }
