@@ -1492,3 +1492,18 @@ footer {
 .quk_lks li {
     margin-bottom: 0.6rem;
 }
+
+.contact_li {
+    gap: .5rem;
+    align-items: flex-start;
+    display: flex;
+    font-size: .875rem;
+    line-height: 1.25rem;
+
+}
+
+.contact_li svg {
+    width: 1rem;
+    margin-top: .125rem;
+    
+}
