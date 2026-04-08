@@ -1552,3 +1552,13 @@ footer {
 .footer_btm_info :hover {
     color: #87bd28;
 }
+
+
+ABOUT US PAGE
+
+.about_hero {
+    padding-top: 7rem;
+    padding-bottom: 5rem;
+    overflow: hidden;
+    position: relative;
+}
