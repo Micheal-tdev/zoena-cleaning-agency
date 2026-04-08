@@ -1495,7 +1495,8 @@ footer {
 
 .contact_li {
     gap: .5rem;
-    
+    align-items: flex-start;
+    display: flex;
     font-size: .875rem;
     line-height: 1.25rem;
 
