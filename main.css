@@ -1495,8 +1495,7 @@ footer {
 
 .contact_li {
     gap: .5rem;
-    align-items: flex-start;
-    display: flex;
+    
     font-size: .875rem;
     line-height: 1.25rem;
 
@@ -1505,5 +1504,8 @@ footer {
 .contact_li svg {
     width: 1rem;
     margin-top: .125rem;
-    
+}
+
+.li_span {
+    color: #fafafa66;
 }
