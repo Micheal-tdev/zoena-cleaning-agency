@@ -1509,7 +1509,6 @@ footer {
 }
 
 .li_span {
-    color: #fafafa66;
     display: block;
 }
 
@@ -1562,40 +1561,34 @@ ABOUT US PAGE
     overflow: hidden;
     position: relative;
 }
+.about_hero {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
 
 .about_hero_div {
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
     position: absolute;
+    inset: 0;
 }
 
 .about_hero_div img {
-    object-fit: cover;
     width: 100%;
     height: 100%;
-    max-width: 100%;
-    display: block;
-    vertical-align: middle;
+    object-fit: cover;
 }
 
 .cover_color {
-    background-color: #102141;
     position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
+    inset: 0;
+    background-color: rgba(10, 25, 60, 0.75);
 }
 
 .about_hero_text {
-    padding-left: 2rem;
-    padding-right: 2rem;
-    margin-left: auto;
-    margin-right: auto;
-    z-index: 10;
     position: relative;
+    z-index: 10;
+    padding: 3rem 2rem;
 }
 
 .about_hero_mini_text {
@@ -1636,4 +1629,12 @@ ABOUT US PAGE
     font-size: .875rem;
     line-height: 1.25rem;
     color: #e0e4eb;
+}
+
+.greens {
+    color: #87bd28;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-wrap: balance;
+    font-weight: 700;
 }
