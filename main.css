@@ -1649,3 +1649,13 @@ ABOUT US PAGE
     text-wrap: balance;
     font-weight: 700;
 }
+
+.abt_us_hero_cnt {
+    display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   gap: 2rem;
+   margin-top: 2rem;
+   padding-top: 1.25rem;
+   border-top-width: 1px;
+}
