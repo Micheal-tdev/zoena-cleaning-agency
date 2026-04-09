@@ -1650,12 +1650,39 @@ ABOUT US PAGE
     font-weight: 700;
 }
 
-.abt_us_hero_cnt {
+.abt_us_hero_cnt a {
     display: flex;
    flex-wrap: wrap;
    align-items: center;
-   gap: 2rem;
+   gap: .75rem;
    margin-top: 2rem;
    padding-top: 1.25rem;
    border-top-width: 1px;
+   text-decoration: none;
+}
+
+.abt_us_hero_svg {
+    width: 2.95rem;
+    height: 2.95rem;
+    background-color: #87bd2826;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abt_spn1 {
+    font-size: .75rem;
+    line-height: 1rem;
+    color: #646f87;
+    display: block;
+}
+
+.abt_spn2 {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #102141;
+    font-weight: 600;
+    display: block;
+    
 }
