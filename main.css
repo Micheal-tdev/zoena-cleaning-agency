@@ -26,9 +26,20 @@
     cursor: pointer;
 }
 
+.nav_links {
+    font-weight: 500;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    position: relative;
+    text-decoration: none;
+    color: #102141cc;
+}
+
 .listed_tng :hover {
     text-decoration: underline;
+    text-decoration-color: #6fa020;
 }
+
 .img_logo {
     display: flex;
     align-items: center;
