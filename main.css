@@ -1836,5 +1836,66 @@ ABOUT US PAGE
     transform: scale(1.08);
 }
 
+.choose-section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    overflow: hidden;
+}
+
+.choose-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.choose-grid {
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 4rem;
+
+}
+
+.block {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-wrap: balance;
+    color: #102141;
+    font-weight: #102141;
+}
+
+.choose-mini-card-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.choose-mini-card-left {
+    padding: 1rem;
+    background-color: #f3f7f4;
+    border-radius: .75rem;
+    border-radius: .75rem;
+    display: flex;
+    align-items: flex-start;
+}
+
+.choose-mini-card-left svg {
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0;
+}
+
+.card {
+    color: #102141;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
+
+
+
+
 
 
