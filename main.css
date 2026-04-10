@@ -1684,5 +1684,25 @@ ABOUT US PAGE
     color: #102141;
     font-weight: 600;
     display: block;
-    
+
+}
+
+.stat-section {
+    background-color: #87bd28;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+}
+
+.stat-ctn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 2rem;
 }
