@@ -1706,3 +1706,39 @@ ABOUT US PAGE
     grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 2rem;
 }
+
+.stat-grid-card {
+    text-align: center;
+
+}
+
+.stat-grid-card-num {
+    font-size: 3rem;
+    line-height: 1;
+    color: #ffffff;
+    font-weight: 700;
+    text-align: center;
+}
+
+.stat-grid-card-txt {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #ffffff99;
+    font-weight: 500;
+    margin-top: .25rem;
+    text-align: center;
+}
+
+.expert-section {
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    background-color: #f3f7f4;
+}
+
+.expert-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
