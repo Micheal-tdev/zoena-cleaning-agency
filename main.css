@@ -1878,7 +1878,7 @@ ABOUT US PAGE
     border-radius: .75rem;
     border-radius: .75rem;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .choose-mini-card-left svg {
@@ -1887,8 +1887,7 @@ ABOUT US PAGE
     flex-shrink: 0;
 }
 
-.card {
-    color: #102141;
+.choose-mini-card-h3 {
     font-weight: 600;
     font-size: .875rem;
     line-height: 1.25rem;
