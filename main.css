@@ -1759,6 +1759,8 @@ ABOUT US PAGE
     font-size: .75rem;
     line-height: 1rem;
     text-align: center;
+    display: inline-block;
+    margin-bottom: .75rem;
 }
 
 .expert-upper-deets h2 {
@@ -1767,7 +1769,6 @@ ABOUT US PAGE
     text-wrap: balance;
     color: #102141;
     font-weight: 700;
-    margin-top: .75rem;
 }
 
 .staff-span {
@@ -1870,15 +1871,28 @@ ABOUT US PAGE
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
+    margin-top: 2rem;
 }
 
 .choose-mini-card-left {
     padding: 1rem;
     background-color: #f3f7f4;
     border-radius: .75rem;
-    border-radius: .75rem;
     display: flex;
     align-items: center;
+    gap: .75rem;
+    animation: slide-right 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .choose-mini-card-left svg {
@@ -1887,10 +1901,23 @@ ABOUT US PAGE
     flex-shrink: 0;
 }
 
-.choose-mini-card-h3 {
+.choose-mini-card-h4 {
     font-weight: 600;
     font-size: .875rem;
     line-height: 1.25rem;
+    color: #102141;
+}
+
+.size-6 {
+    color: #87bd28;
+    stroke: #87bd28;
+    width: 30px;
+    height: 30px;
+}
+
+.skills-bar-div {
+    margin-top: 2rem;
+    
 }
 
 
