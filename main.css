@@ -1917,7 +1917,28 @@ ABOUT US PAGE
 
 .skills-bar-div {
     margin-top: 2rem;
-    
+}
+
+.skills-bar-div p {
+    font-weight: 600;
+    margin-bottom: 1rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #102141;
+}
+
+.type-cleaning {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: .375rem;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    color: #102141;
+}
+
+
+.type-cleaning-num {
+    font-weight: 600;
 }
 
 
