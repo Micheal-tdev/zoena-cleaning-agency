@@ -1927,6 +1927,15 @@ ABOUT US PAGE
     color: #102141;
 }
 
+.skills {
+    margin-bottom: 1.25rem;
+}
+
+.skillz {
+    margin-bottom: 1.25rem;
+    gap: 2rem;
+}
+
 .type-cleaning {
     display: flex;
     justify-content: space-between;
@@ -1964,38 +1973,30 @@ ABOUT US PAGE
     }
 }
 
-.mini-bar2 {
-    width: 0%;                
+.mini-bar-2 {
+    width: 0%;
     background-color: #87bd28;
     border-radius: 99px;
     height: 100%;
-    animation: grow-bar 1s cubic-bezier(0, 0, 0.2, 1) 300ms forwards;
+    animation: grow-bar-2 1s cubic-bezier(0, 0, 0.2, 1) 300ms forwards;
 }
 
-@keyframes grow-bar {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 95%;
-    }
+@keyframes grow-bar-2 {
+    from { width: 0%; }
+    to { width: 90%; }
 }
 
-.mini-bar3 {
-    width: 0%;                
+.mini-bar-3 {
+    width: 0%;
     background-color: #87bd28;
     border-radius: 99px;
     height: 100%;
-    animation: grow-bar 1s cubic-bezier(0, 0, 0.2, 1) 300ms forwards;
+    animation: grow-bar-3 1s cubic-bezier(0, 0, 0.2, 1) 300ms forwards;
 }
 
-@keyframes grow-bar {
-    from {
-        width: 0%;
-    }
-    to {
-        width: 95%;
-    }
+@keyframes grow-bar-3 {
+    from { width: 0%; }
+    to { width: 85%; }
 }
 
 
