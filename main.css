@@ -2039,7 +2039,7 @@ ABOUT US PAGE
 
 .choose-card-right-image img {
     object-fit: cover;
-    width: 100%;
+    width: 85%;
     height: auto;
     aspect-ratio: 3 / 4;
     max-width: 100%;
