@@ -2124,3 +2124,18 @@ ABOUT US PAGE
     font-size: .875rem;
     line-height: 1.25rem;
 }
+
+.lets-talk-f-2a {
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 0.15s;
+
+    color: #87bd28;
+    font-weight: 600;
+    font-size: .875rem;
+    line-height: 1.25rem;
+    gap: .5rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
