@@ -357,25 +357,36 @@ img {
     margin: 0 auto;
 }
 
-
-.about {
+.abt_1 {
     position: relative;
+    animation: slide-right 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
-.about_1 {
-    position: relative;
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .big_img {
     width: 100%;
     height: auto;
     border-radius: 12px;
+    
 }
 
-.about_2 {
+.abt_2 {
     position: absolute;
     bottom: -20px;
     right: -20px;
     width: 150px;
+
+    
 }
 
 .side_div {
@@ -402,9 +413,21 @@ img {
     color: #646f87;
      font-family: 'DM Sans', sans-serif;
 }
-
 #about_2 {
-    margin-bottom:30px;
+    margin-bottom: 30px;
+    animation-delay: 150ms;
+    animation: slide-left 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes slide-left {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .green {
@@ -1710,7 +1733,20 @@ ABOUT US PAGE
 .stat-grid-card {
     text-align: center;
 
+    animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    @keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
+
 
 .stat-grid-card-num {
     font-size: 3rem;
@@ -1749,6 +1785,18 @@ ABOUT US PAGE
     max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
+    animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .expert-span {
