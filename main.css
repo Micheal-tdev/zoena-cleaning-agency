@@ -1859,7 +1859,7 @@ ABOUT US PAGE
 
 }
 
-.block {
+.blocks {
     font-size: 2.25rem;
     line-height: 2.5rem;
     text-wrap: balance;
@@ -1911,8 +1911,8 @@ ABOUT US PAGE
 .size-6 {
     color: #87bd28;
     stroke: #87bd28;
-    width: 30px;
-    height: 30px;
+    width: 24px;
+    height: 24px;
 }
 
 .skills-bar-div {
@@ -2059,9 +2059,68 @@ ABOUT US PAGE
     width: 100%;
 }
 
+.lets-talk-div {
+    max-width: 48rem;
+    animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+}
 
+.lets-talk-div h2 {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    text-wrap: balance;
+    color: #fafafa;
+    font-weight: 700;
+}
 
+.lets-talk-flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
 
+}
 
+.lets-talk-f-a {
+    font-size: .875rem;
+    line-height: 1.25rem;
+    padding-top: .875rem;
+    padding-bottom: .875rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: #ffffff;
+    font-weight: 600;
+    background-color: #87bd28;
+    border-radius: 99px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    animation-duration: .2s;
+    transition-duration: .2s;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    box-shadow: 0 4px 20px rgba(135, 189, 40, 0.2);
+    box-shadow: 0 10px 15px -3px rgba(135, 189, 40, 0.2), 
+         0 4px 6px -4px rgba(135, 189, 40, 0.2);
+}
 
+.lets-talk-f-a :hover {
+    background-color: red;
+}   
+
+.lets-talk-f-span {
+    color: #fafafa80;
+    font-size: .875rem;
+    line-height: 1.25rem;
+}
