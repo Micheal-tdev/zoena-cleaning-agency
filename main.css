@@ -1182,6 +1182,17 @@ img {
     max-width: 42rem;
     margin-left: auto;
     margin-right: auto;
+    animation: fade-up 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+@keyframes fade-up {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .contact_span {
@@ -1229,7 +1240,19 @@ img {
 
 .form_left {
     height: 100%;
+    animation: slide-right 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
     /* grid-column: span 2 / span 2; */
+}
+
+@keyframes slide-right {
+    from {
+        opacity: 0;
+        transform: translateX(-30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .form_left_card {
@@ -1330,8 +1353,20 @@ img {
 }
 
 .form_div_right {
-    /* grid-column: span 3 / span 3; */
-    
+    animation: slide-left 0.7s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    animation-delay: 150ms;
+    /* grid-column: span 3 / span 3; */ 
+}
+
+@keyframes slide-left {
+    from {
+        opacity: 0;
+        transform: translateX(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .form_div_box {
