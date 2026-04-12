@@ -2293,3 +2293,38 @@ transition-duration: 0.15s;
     margin-right: auto;
     text-align: center;
 }
+
+.services_hero_mini_text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #fafafa99;
+}
+
+.services_hero_mini_text a {
+    transition: all 0.15s cubic-bezier(0.4, 0, 0.2, 1);
+    text-decoration: none;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: #fafafa99;
+    cursor: progress;
+}
+
+.services_hero_mini_text svg {
+    width: 0.875rem;
+    height: 0.875rem;
+    color: #fafafa99;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.services_hero_mini_text  span {
+    color: #fafafacc;
+    
+}
