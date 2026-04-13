@@ -2236,9 +2236,10 @@ transition-duration: 0.15s;
 
 
 /* SERVICES STYLING */
-.aervices_hero {
+.services_hero {
     padding-top: 7rem;
     padding-bottom: 5rem;
+    width: 100%;
     overflow: hidden;
     position: relative;
 }
@@ -2283,6 +2284,7 @@ transition-duration: 0.15s;
     color: #fafafa;
     font-weight: 700;
 }
+
 .services_hero_p{
     font-size: 1rem;
     line-height: 1.5rem;
@@ -2316,6 +2318,10 @@ transition-duration: 0.15s;
     cursor: progress;
 }
 
+.services_hero_mini_text a:hover {
+    color: #6fa020;
+}
+
 .services_hero_mini_text svg {
     width: 0.875rem;
     height: 0.875rem;
@@ -2326,5 +2332,4 @@ transition-duration: 0.15s;
 
 .services_hero_mini_text  span {
     color: #fafafacc;
-    
 }
