@@ -2509,7 +2509,26 @@ transition-duration: 0.15s;
 }
 
 .spotless-space-card-right h2 {
-    
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    font-weight: 700;
+    color: #fafafa;
+    text-wrap: balance;
+}
+
+.spotless-space-card-right p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #fafafa99;
+    max-width: 28rem;
+    max-width: 28rem;
+
+}
+
+.lets-talk-f-a:hover {
+    background-color: #88b43c;
 }
 
 
