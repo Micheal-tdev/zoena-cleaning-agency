@@ -2464,3 +2464,52 @@ transition-duration: 0.15s;
     transform: translateY(-2px);
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
 }
+
+.spotless-space-arena {
+    background-color: #102141;
+    overflow: hidden;
+    position: relative;
+}
+
+.spotless-space-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.spotless-space-grid {
+    display: grid;
+    align-items: flex-end;
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    gap: 2rem;
+}
+
+.spotless-space-card-left {
+        /* animation: 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0s 1 normal forwards running slide-right; */
+    position: relative;
+}
+
+.spotless-space-card-left img {
+    margin-left: 0px;
+    margin-right: 0px;
+    object-fit: cover;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    max-width: 28rem;
+    width: 100%;
+    height: auto;
+}
+
+.spotless-space-card-right {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    /* animation: 0.7s cubic-bezier(0.16, 1, 0.3, 1) 0s 1 normal forwards running slide-left; */
+}
+
+.spotless-space-card-right h2 {
+    
+}
+
+
