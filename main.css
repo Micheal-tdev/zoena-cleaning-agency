@@ -3,6 +3,10 @@
     margin: 0;
     font-family:'DM Sans', sans-serif;
 }
+
+body {
+    min-height: 100vh;
+}
 .nav_container {
     display: flex;
     justify-content: space-around;
@@ -2530,6 +2534,332 @@ transition-duration: 0.15s;
 
 .lets-talk-f-a:hover {
     background-color: #88b43c;
+}
+
+
+
+/* ================================
+   RESPONSIVE STYLES
+   ================================ */
+
+/* TABLET - 768px and below */
+@media (max-width: 768px) {
+
+    /* NAVBAR */
+    .nav_container {
+        gap: 1rem;
+        padding: 12px 1rem;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .services {
+        display: none; /* hide nav links on mobile */
+    }
+
+    .tel_link {
+        display: none; /* hide phone number on mobile */
+    }
+
+    /* HERO SECTION */
+    .sect_container {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .left_sect h1 {
+        font-size: clamp(28px, 8vw, 48px);
+    }
+
+    .left_sect p {
+        font-size: 16px;
+        margin-bottom: 40px;
+        max-width: 100%;
+    }
+
+    .right_sect img {
+        width: 100%;
+        max-width: 400px;
+        margin: 0 auto;
+        display: block;
+    }
+
+    .serv_btn {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    .clt_div {
+        margin-left: 0;
+        justify-content: center;
+    }
+
+    /* PROJECTS */
+    .projects_container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 1rem;
+        padding: 1.5rem 1rem;
+    }
+
+    /* CARDS SECTION */
+    .card_container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1rem;
+    }
+
+    /* ABOUT SECTION */
+    .about_ctn {
+        grid-template-columns: 1fr;
+        gap: 40px;
+    }
+
+    .about h2 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    /* SERVICES / GRADIENT SECTION */
+    .gradient_div {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+    }
+
+    .gradient h2 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    .pic_cnt {
+        flex-direction: column;
+        padding: 0 1rem;
+    }
+
+    .pic_div {
+        width: 100%;
+    }
+
+    /* WHY CHOOSE US */
+    .cleaning_grid {
+        grid-template-columns: 1fr;
+    }
+
+    .left_grid_cnt {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .grid_right h2 {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+
+    /* HOW WE WORK */
+    .direction_div {
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        padding: 0 2rem;
+    }
+
+    .line {
+        display: none;
+    }
+
+    /* GALLERY */
+    .gal_grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* QUOTE CARD */
+    .quote_card {
+        flex-direction: column;
+        width: 90%;
+        padding: 2rem;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .quote_left {
+        text-align: center;
+    }
+
+    /* NAMES SECTION */
+    .names_div {
+        gap: 2rem;
+    }
+
+    /* CONTACT FORM */
+    .form_div {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+        padding: 0 1rem;
+    }
+
+    .details_cnt {
+        grid-template-columns: 1fr;
+    }
+
+    /* FOOTER */
+    .footer_grid_cnt {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 2rem;
+    }
+
+    .footer_btm_info {
+        flex-direction: column;
+        gap: 0.5rem;
+        text-align: center;
+        padding: 0;
+    }
+
+    /* ABOUT HERO */
+    .about_hero {
+        height: 250px;
+    }
+
+    .about_hero_text h1 {
+        font-size: 2rem;
+    }
+
+    /* STATS */
+    .stat-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+
+    /* EXPERT STAFF */
+    .expert-staff-grid {
+        grid-template-columns: 1fr;
+        max-width: 20rem;
+    }
+
+    /* CHOOSE SECTION */
+    .choose-grid {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+
+    .choose-mini-card-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* SERVICES HERO */
+    .services_hero {
+        height: 300px;
+    }
+
+    .services_hero_text h1 {
+        font-size: 2rem;
+    }
+
+    /* ADVERTISEMENT CARDS */
+    .advertisment-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* SPOTLESS SECTION */
+    .spotless-space-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .spotless-space-card-right {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .spotless-space-card-right h2 {
+        font-size: 1.75rem;
+    }
+}
+
+/* MOBILE - 480px and below */
+@media (max-width: 480px) {
+
+    /* NAVBAR */
+    .tel_link_2 {
+        font-size: 0.75rem;
+        padding: 0.5rem 0.875rem;
+    }
+
+    /* HERO */
+    .left_sect h1 {
+        font-size: clamp(24px, 7vw, 36px);
+    }
+
+    /* PROJECTS */
+    .projects_container {
+        grid-template-columns: 1fr;
+        max-width: 16rem;
+    }
+
+    /* CARDS */
+    .card_container {
+        grid-template-columns: 1fr;
+    }
+
+    /* GALLERY */
+    .gal_grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* FOOTER */
+    .footer_grid_cnt {
+        grid-template-columns: 1fr;
+    }
+
+    /* QUOTE CARD */
+    .quote_card {
+        width: 95%;
+        padding: 1.5rem;
+    }
+
+    /* STATS */
+    .stat-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* ABOUT HERO */
+    .about_hero_text h1 {
+        font-size: 1.75rem;
+    }
+
+    /* SERVICES HERO */
+    .services_hero_text h1 {
+        font-size: 1.75rem;
+    }
+
+    .services_hero_p {
+        font-size: 0.875rem;
+    }
+
+    /* ADVERTISEMENT */
+    .advertisment-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* LARGE SCREENS - 1280px and above */
+@media (min-width: 1280px) {
+    .nav_container {
+        gap: 0;
+        justify-content: space-between;
+        padding: 18px 4rem;
+    }
+
+    .sect_container {
+        padding: 80px 4rem;
+    }
+
+    .about_div,
+    .cleaning_cnt,
+    .gradient_cnt,
+    .work_cnt,
+    .custom_cnt {
+        max-width: 80rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
