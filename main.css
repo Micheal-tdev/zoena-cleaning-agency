@@ -5,7 +5,7 @@
 }
 
 body {
-    min-height: 100000vh;
+    min-height: 100vh;
 }
 .nav_container {
     display: flex;
