@@ -42,3 +42,59 @@ document.querySelectorAll('.nav_links').forEach((link) => {
         link.setAttribute('aria-current', 'page');
     }
 });
+
+/* ===== Hero slider (home page only) ===== */
+const slider = document.querySelector('.hero_slider');
+
+if (slider) {
+    const slides = slider.querySelectorAll('.hero_slide');
+    const dots = slider.querySelectorAll('.hero_dot');
+    const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const DELAY = 6000;      // 6 seconds per slide
+    let current = 0;
+    let timer = null;
+
+    function showSlide(index) {
+        current = (index + slides.length) % slides.length;   // wraps around
+        slides.forEach((slide, i) => slide.classList.toggle('is_active', i === current));
+        dots.forEach((dot, i) => dot.classList.toggle('is_active', i === current));
+    }
+
+    function startAuto() {
+        if (reduceMotion) return;   // respect "reduce motion" settings
+        stopAuto();
+        timer = setInterval(() => showSlide(current + 1), DELAY);
+    }
+
+    function stopAuto() {
+        clearInterval(timer);
+    }
+
+    slider.querySelector('.hero_next').addEventListener('click', () => { showSlide(current + 1); startAuto(); });
+    slider.querySelector('.hero_prev').addEventListener('click', () => { showSlide(current - 1); startAuto(); });
+    dots.forEach((dot, i) => dot.addEventListener('click', () => { showSlide(i); startAuto(); }));
+
+    // pause while the mouse is over it or a button has keyboard focus
+    slider.addEventListener('mouseenter', stopAuto);
+    slider.addEventListener('mouseleave', startAuto);
+    slider.addEventListener('focusin', stopAuto);
+    slider.addEventListener('focusout', startAuto);
+
+    // pause when the tab is hidden
+    document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stopAuto(); else startAuto();
+    });
+
+    // swipe on touch screens
+    let startX = 0;
+    slider.addEventListener('touchstart', (e) => { startX = e.touches[0].clientX; }, { passive: true });
+    slider.addEventListener('touchend', (e) => {
+        const diff = e.changedTouches[0].clientX - startX;
+        if (Math.abs(diff) > 50) {
+            showSlide(diff < 0 ? current + 1 : current - 1);
+            startAuto();
+        }
+    }, { passive: true });
+
+    startAuto();
+}
