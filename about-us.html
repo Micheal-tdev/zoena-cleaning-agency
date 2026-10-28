@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -10,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
     <title>About Us</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
      <!-- NAVBAR -->
@@ -20,13 +22,20 @@
             </a>
         </div>
 
+        <button class="menu_toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav_menu">
+            <span class="menu_bar"></span>
+            <span class="menu_bar"></span>
+            <span class="menu_bar"></span>
+        </button>
+
+        <div class="nav_menu" id="nav_menu">
         <div class="services">
             <ul class="listed_tng">
-                 <li>
+               <li>
                 <a href="index.html" class="nav_links">Home</a>
                </li>
                <li>
-                <a href="#about" class="nav_links">About Us</a>
+                <a href="about-us.html" class="nav_links">About Us</a>
                </li>
                <li>
                 <a href="services.html" class="nav_links">Services</a>
@@ -38,13 +47,14 @@
         </div>
 
         <div class="cus_care">
-            <a href="tel:+1 7806000034" class="tel_link">
+            <a href="tel:+17806000034" class="tel_link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
                     <path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path>
                 </svg>
                 +1 780-600-0034
             </a>
             <a href="#contact" class="tel_link_2">Get a Custom Quote</a>
+        </div>
         </div>
     </div>
 
@@ -57,7 +67,7 @@
         <div class="about_hero_text">
             <h1>About Us</h1>
             <div class="about_hero_mini_text">
-                <a href="#home">Home</a>
+                <a href="index.html">Home</a>
                 <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(100, 100, 100, 1);transform: ;msFilter:;"><path d="M10.707 17.707 16.414 12l-5.707-5.707-1.414 1.414L13.586 12l-4.293 4.293z"></path></svg>
                 <span>About Us</span>
             </div>
@@ -72,7 +82,7 @@
 
                 <div class="about">
                     <div class="abt_1">
-                        <img src="about_pic1.jpg" alt="cleaning service" class="big_img">
+                        <img loading="lazy" src="about_pic1.jpg" alt="cleaning service" class="big_img">
                     </div>
                     <div class="abt_2"></div>
                     <div class="side_div">
@@ -162,7 +172,7 @@
             <div class="expert-staff-grid">
                 <div class="expert-staff-card">
                     <div class="expert-staff-container">
-                        <img src="team-obinna-.png" alt="Operations manager of zoenacleaningservices">
+                        <img loading="lazy" src="team-obinna-.png" alt="Operations manager of zoenacleaningservices">
                     </div>
                     <div class="expert-staff-names">
                         <h3>Obinna Egbuna</h3>
@@ -172,7 +182,7 @@
 
                 <div class="expert-staff-card">
                     <div class="expert-staff-container">
-                        <img src="team-omasirichi-.png" alt="Operations manager of zoenacleaningservices">
+                        <img loading="lazy" src="team-omasirichi-.png" alt="Operations manager of zoenacleaningservices">
                     </div>
                     <div class="expert-staff-names">
                         <h3>Omasirichi Egbuna</h3>
@@ -182,7 +192,7 @@
 
                 <div class="expert-staff-card">
                     <div class="expert-staff-container">
-                        <img src="team-osinachi-.png" alt="Operations manager of zoenacleaningservices">
+                        <img loading="lazy" src="team-osinachi-.png" alt="Operations manager of zoenacleaningservices">
                     </div>
                     <div class="expert-staff-names">
                         <h3>Osinachi Egbuna</h3>
@@ -251,7 +261,7 @@
 
                 <div class="choose-card-right">
                     <div class="choose-card-right-image">
-              new        <img src="why-about-.jpg" alt="an agent">
+              <img loading="lazy" src="why-about-.jpg" alt="an agent">
                     </div>
                 </div>
             </div>
@@ -282,7 +292,7 @@
     </section>
 
         <!--CUSTOM CARE SECTION-->
-    <section class="custom_sect">
+    <section class="custom_sect" id="contact">
         <div class="custom_cnt">
             <div class="custom_div">
                 <span class="contact_span">Contact Us</span>
@@ -405,13 +415,13 @@
                     <h4>Quick Links</h4>
                     <ul>
                         <li>
-                            <a href="#home">Home</a>
+                            <a href="index.html">Home</a>
                         </li>
                         <li>
-                            <a href="#about us">About Us</a>
+                            <a href="about-us.html">About Us</a>
                         </li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="services.html">Services</a>
                         </li>
                         <li>
                             <a href="#contact">Contact</a>
@@ -423,22 +433,22 @@
                     <h4>Services</h4>
                     <ul>
                         <li>
-                            <a href="#services">Post-Construction Cleaning</a>
+                            <a href="services.html">Post-Construction Cleaning</a>
                         </li>
                         <li>
-                            <a href="#services">Commercial Cleaning</a>
+                            <a href="services.html">Commercial Cleaning</a>
                         </li>
                         <li>
-                            <a href="#services">Office Cleaning</a>
+                            <a href="services.html">Office Cleaning</a>
                         </li>
                         <li>
-                            <a href="#services">Deep Cleaning</a>
+                            <a href="services.html">Deep Cleaning</a>
                         </li>
                         <li>
-                            <a href="#services">Move-In/Move-Out</a>
+                            <a href="services.html">Move-In/Move-Out</a>
                         </li>
                         <li>
-                            <a href="#services">Industrial Cleaning</a>
+                            <a href="services.html">Industrial Cleaning</a>
                         </li>
                     </ul>
                  </div>
@@ -454,7 +464,7 @@
 
                         <li class="contact_li">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(135, 189, 40, 1);transform: ;msFilter:;"><path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path></svg>
-                            <a href="#services">+1 780-600-0034</a>
+                            <a href="tel:+17806000034">+1 780-600-0034</a>
                         </li>
                         <li class="contact_li">
                             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" style="fill: rgba(135, 189, 40, 1);transform: ;msFilter:;"><path d="M20 4H4c-1.103 0-2 .897-2 2v12c0 1.103.897 2 2 2h16c1.103 0 2-.897 2-2V6c0-1.103-.897-2-2-2zm0 2v.511l-8 6.223-8-6.222V6h16zM4 18V9.044l7.386 5.745a.994.994 0 0 0 1.228 0L20 9.044 20.002 18H4z"></path></svg>

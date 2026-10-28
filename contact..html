@@ -1,7 +1,6 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
@@ -12,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&display=swap" rel="stylesheet">
     <title>contact</title>
+    <script src="script.js" defer></script>
 </head>
 <body>
      <!-- NAVBAR -->
@@ -22,6 +22,13 @@
             </a>
         </div>
 
+        <button class="menu_toggle" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="nav_menu">
+            <span class="menu_bar"></span>
+            <span class="menu_bar"></span>
+            <span class="menu_bar"></span>
+        </button>
+
+        <div class="nav_menu" id="nav_menu">
         <div class="services">
             <ul class="listed_tng">
                <li>
@@ -34,19 +41,20 @@
                 <a href="services.html" class="nav_links">Services</a>
                </li>
                <li>
-                <a href="#contact" class="nav_links">Contact</a>
+                <a href="index.html#contact" class="nav_links">Contact</a>
                </li>
             </ul>
         </div>
 
         <div class="cus_care">
-            <a href="tel:+1 7806000034" class="tel_link">
+            <a href="tel:+17806000034" class="tel_link">
                 <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" style="fill: rgba(0, 0, 0, 1);">
                     <path d="M17.707 12.293a.999.999 0 0 0-1.414 0l-1.594 1.594c-.739-.22-2.118-.72-2.992-1.594s-1.374-2.253-1.594-2.992l1.594-1.594a.999.999 0 0 0 0-1.414l-4-4a.999.999 0 0 0-1.414 0L3.581 5.005c-.38.38-.594.902-.586 1.435.023 1.424.4 6.37 4.298 10.268s8.844 4.274 10.269 4.298h.028c.528 0 1.027-.208 1.405-.586l2.712-2.712a.999.999 0 0 0 0-1.414l-4-4.001zm-.127 6.712c-1.248-.021-5.518-.356-8.873-3.712-3.366-3.366-3.692-7.651-3.712-8.874L7 4.414 9.586 7 8.293 8.293a1 1 0 0 0-.272.912c.024.115.611 2.842 2.271 4.502s4.387 2.247 4.502 2.271a.991.991 0 0 0 .912-.271L17 14.414 19.586 17l-2.006 2.005z"></path>
                 </svg>
                 +1 780-600-0034
             </a>
-            <a href="#contact" class="tel_link_2">Get a Custom Quote</a>
+            <a href="index.html#contact" class="tel_link_2">Get a Custom Quote</a>
+        </div>
         </div>
     </div>
 
@@ -114,7 +122,7 @@
             <div class="expert-staff-grid">
                 <div class="expert-staff-card">
                     <div class="expert-staff-container">
-                        <img src="team-obinna-.png" alt="Operations manager of zoenacleaningservices">
+                        <img loading="lazy" src="team-obinna-.png" alt="Operations manager of zoenacleaningservices">
                     </div>
                     <div class="expert-staff-names">
                         <h3>Obinna Egbuna</h3>
@@ -124,7 +132,7 @@
 
                 <div class="expert-staff-card">
                     <div class="expert-staff-container">
-                        <img src="team-omasirichi-.png" alt="Operations manager of zoenacleaningservices">
+                        <img loading="lazy" src="team-omasirichi-.png" alt="Operations manager of zoenacleaningservices">
                     </div>
                     <div class="expert-staff-names">
                         <h3>Omasirichi Egbuna</h3>
@@ -134,7 +142,7 @@
 
                 <div class="expert-staff-card">
                     <div class="expert-staff-container">
-                        <img src="team-osinachi-.png" alt="Operations manager of zoenacleaningservices">
+                        <img loading="lazy" src="team-osinachi-.png" alt="Operations manager of zoenacleaningservices">
                     </div>
                     <div class="expert-staff-names">
                         <h3>Osinachi Egbuna</h3>
@@ -156,11 +164,11 @@
                     Save Time & Save Money.
                 </h2>
                 <div class="lets-talk-flex">
-                    <a href="#contact" class="lets-talk-f-a">Get An Estimate</a>
+                    <a href="index.html#contact" class="lets-talk-f-a">Get An Estimate</a>
                     <span class="lets-talk-f-span">or</span>
                     <a href="tel:+17806000034" class="lets-talk-f-2a">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6">
-  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
+  <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902-.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z" />
 </svg>
                         +1 780-600-0034</a>
                     
