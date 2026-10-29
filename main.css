@@ -3122,19 +3122,6 @@ footer {
     max-width: 38rem;
 }
 
-.hero_tag {
-    display: inline-block;
-    margin-bottom: 1rem;
-    padding: 0.4rem 0.9rem;
-    border-radius: 9999px;
-    background-color: rgba(135, 189, 40, 0.2);
-    border: 1px solid rgba(135, 189, 40, 0.6);
-    color: #c8e68a;
-    font-size: 0.8rem;
-    font-weight: 600;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-}
 
 .hero_content h1,
 .hero_content h2 {
