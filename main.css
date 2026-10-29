@@ -3159,6 +3159,10 @@ footer {
     transition: background-color 0.25s ease, transform 0.25s ease, border-color 0.25s ease;
 }
 
+.hero_span {
+    color:#87bd28 ;
+}
+
 .hero_btn:hover {
     background-color: #97c841;
     border-color: #97c841;
